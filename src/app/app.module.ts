@@ -10,6 +10,8 @@ import { MobileDashboardTwoComponent } from './shared/component/mobile-dashboard
 import { MobileTwoComponent } from './shared/component/mobile-two/mobile-two.component';
 import { MovieDashboardComponent } from './shared/component/movie-dashboard/movie-dashboard.component';
 import { MovieComponent } from './shared/component/movie/movie.component';
+import { MovieDashboardTwoComponent } from './shared/component/movie-dashboard-two/movie-dashboard-two.component';
+import { MovieTwoComponent } from './shared/component/movie-two/movie-two.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MovieComponent } from './shared/component/movie/movie.component';
     MobileDashboardTwoComponent,
     MobileTwoComponent,
     MovieDashboardComponent,
-    MovieComponent
+    MovieComponent,
+    MovieDashboardTwoComponent,
+    MovieTwoComponent
   ],
   imports: [
     BrowserModule
